@@ -1,0 +1,315 @@
+{
+  "call_id": "acworth_premier_dental_001",
+  "raw_conversation": [
+    {
+      "timestamp": "0:00",
+      "speaker": "Yen",
+      "text": "hi, thank you for calling acworth premier dental care. This is Madison. How may I help you smile today?"
+    },
+    {
+      "timestamp": "0:05",
+      "speaker": "Kevin",
+      "text": "Hey, Madison. I had a, or I was talking with, I think it was Ohan,"
+    },
+    {
+      "timestamp": "0:13",
+      "speaker": "Yen",
+      "text": "Yes."
+    },
+    {
+      "timestamp": "0:15",
+      "speaker": "Kevin",
+      "text": "The office manager over email. We're going to schedule a call for 11 am this morning. Are they available?"
+    },
+    {
+      "timestamp": "0:21",
+      "speaker": "Yen",
+      "text": "Yeah. Let me check to see if he's back there. Okay? Do you mind waiting for just one moment?"
+    },
+    {
+      "timestamp": "0:25",
+      "speaker": "Kevin",
+      "text": "No worries at all."
+    },
+    {
+      "timestamp": "0:27",
+      "speaker": "Yen",
+      "text": "All right. One moment."
+    },
+    {
+      "timestamp": "0:28",
+      "speaker": "Kevin",
+      "text": "Sounds good."
+    },
+    {
+      "timestamp": "1:09",
+      "speaker": "Yen",
+      "text": "Thanks for holding. This is Doug."
+    },
+    {
+      "timestamp": "1:11",
+      "speaker": "Kevin",
+      "text": "Hey, it's Kevin with curve dental. How are you doing?"
+    },
+    {
+      "timestamp": "1:14",
+      "speaker": "Doug",
+      "text": "Fancy how about yourself?"
+    },
+    {
+      "timestamp": "1:17",
+      "speaker": "Kevin",
+      "text": "Pretty good. I believe we were emailing back and forth, right?"
+    },
+    {
+      "timestamp": "1:22",
+      "speaker": "Doug",
+      "text": "Yeah, yeah, yeah. You're with Curve. I know I've talked to a\u2026 colleague of ours. My wife is a doctor. I just help her around the practice and her friend who's a doctor up in Philadelphia, recommended that we learn more about Curve dental, and that's where we are."
+    },
+    {
+      "timestamp": "1:42",
+      "speaker": "Kevin",
+      "text": "Oh, okay. Perfect. And are you guys using softdent Currently?"
+    },
+    {
+      "timestamp": "1:47",
+      "speaker": "Doug",
+      "text": "I'm sorry, are we using what now?"
+    },
+    {
+      "timestamp": "1:48",
+      "speaker": "Kevin",
+      "text": "Are you guys using softdent currently? I think that's what Dr. Shaw might have mentioned."
+    },
+    {
+      "timestamp": "1:54",
+      "speaker": "Doug",
+      "text": "No, we use dentrix."
+    },
+    {
+      "timestamp": "1:55",
+      "speaker": "Kevin",
+      "text": "Oh, okay. Yeah, I don't know why they put that. Okay, dentrix. And I guess, do you guys have any additional softwares you're kind of using with dentrix?"
+    },
+    {
+      "timestamp": "2:04",
+      "speaker": "Doug",
+      "text": "Yeah, yeah, we have actually several, we use Weave, that's the main one. We also use Nexhealth for a few things, paperless forms, payments, collecting payments from patients like billing, and also online scheduling. And then we have Vine Trellis for claims and eligibility."
+    },
+    {
+      "timestamp": "2:08",
+      "speaker": "Kevin",
+      "text": "Oh, nice."
+    },
+    {
+      "timestamp": "2:27",
+      "speaker": "Kevin",
+      "text": "Perfect. And then for imaging, do you guys use Dexis?"
+    },
+    {
+      "timestamp": "2:33",
+      "speaker": "Doug",
+      "text": "Yes."
+    },
+    {
+      "timestamp": "2:34",
+      "speaker": "Kevin",
+      "text": "Perfect. And I know you mentioned Weave, is that just for phones then?"
+    },
+    {
+      "timestamp": "2:40",
+      "speaker": "Doug",
+      "text": "Weave with the phones and, you know, texting with patients intra office chats, and we use that for like payments too like text to pay."
+    },
+    {
+      "timestamp": "2:47",
+      "speaker": "Kevin",
+      "text": "Okay."
+    },
+    {
+      "timestamp": "2:52",
+      "speaker": "Doug",
+      "text": "We don't do that as much anymore. We just signed up with Nexhealth like about a month or so ago, a couple months ago for the payments and then Weave."
+    },
+    {
+      "timestamp": "2:58",
+      "speaker": "Kevin",
+      "text": "Yeah."
+    },
+    {
+      "timestamp": "3:00",
+      "speaker": "Doug",
+      "text": "What else do we use? I mean, it comes with a fax and like auto recall, stuff like that."
+    },
+    {
+      "timestamp": "3:08",
+      "speaker": "Kevin",
+      "text": "Yeah, yeah, perfect. Well, I know Dr. Shaw kind of introduced us to you, but were you guys maybe looking to achieve anything with the new software?"
+    },
+    {
+      "timestamp": "3:20",
+      "speaker": "Doug",
+      "text": "With Curve?"
+    },
+    {
+      "timestamp": "3:22",
+      "speaker": "Kevin",
+      "text": "Well, I guess, yeah, I guess we're at like any kind of, so obviously you're using dentrix now with the new software potential change, would you guys be, you know, having any kind of goals for like consolidation or going further?"
+    },
+    {
+      "timestamp": "3:33",
+      "speaker": "Doug",
+      "text": "Yeah. Three things. Yeah. Three things. One is that we want to make sure that your company, your software has a, very airtight cybersecurity like hipaa, and all that stuff especially with like against hacking and whatnot. So we want to make sure that one is airtight. And number two, we want to make sure that you guys provide just about everything. I know that you guys don't do the phones. And I know Arpan, he mentioned that he used mango for the phones along with Curve dental. But other than the phone, he told me like everything that we have with all these different companies, he said everything is with Curve. So I want to make sure that's the case. And then lastly also the pricing because the way he described to me, he was like just this one low fee which is like less than what I paid just to Weave. You get all of this. So I was like, wow, I have to take the call."
+    },
+    {
+      "timestamp": "4:35",
+      "speaker": "Kevin",
+      "text": "Yeah, no, that definitely makes sense. And yeah, you are, probably, I mean, we'll definitely walk through all the numbers and everything on the demo for you. But yeah, typically, when I see people using, you know, dentrix, weave, Nexhealth, Vine, dexis, just all those, you know, different softwares. Usually they end up saving a fair amount just because, yeah, everything's going to be done inside of Curve for you and we'll walk through all those features for you on the demo as well. I guess, yeah, honestly, I appreciate you walking through all that for me. I don't have a ton of other questions. I know usually the demos take maybe about an hour. Is there a time maybe next week that would work well to walk through everything?"
+    },
+    {
+      "timestamp": "5:15",
+      "speaker": "Doug",
+      "text": "Yeah, sure. Well, when\u2019s a good time for you."
+    },
+    {
+      "timestamp": "5:18",
+      "speaker": "Kevin",
+      "text": "Let's see. And you guys, are you guys in acworth, Georgia? Oh, nice. Yeah, I used to, I'm here in Alpharetta Georgia, but I used to work up in acworth all the time when I was growing up."
+    },
+    {
+      "timestamp": "5:28",
+      "speaker": "Doug",
+      "text": "Yeah. I saw that at Curve dental. When I looked up on Google, the ad just popped up and you\u2019re in Alpharetta. I was like, oh, okay. You guys are local."
+    },
+    {
+      "timestamp": "5:34",
+      "speaker": "Kevin",
+      "text": "We are, yes. And we might have to come visit you guys here because, yeah, honestly, acworth's not too far at all, but let's see."
+    },
+    {
+      "timestamp": "5:41",
+      "speaker": "Doug",
+      "text": "There you go."
+    },
+    {
+      "timestamp": "5:43",
+      "speaker": "Kevin",
+      "text": "So going into next week, I know we have like."
+    },
+    {
+      "timestamp": "5:47",
+      "speaker": "Kevin",
+      "text": "Any particular day you're looking at? I know we have times anytime Monday through Friday kind of morning and afternoon depends on the day. Is there a day maybe next week you had though?"
+    },
+    {
+      "timestamp": "5:57",
+      "speaker": "Doug",
+      "text": "Let me click\u2026 well, let me see. Let me just look at my schedule and make sure I don't have anything conflicting."
+    },
+    {
+      "timestamp": "6:11",
+      "speaker": "Doug",
+      "text": "I mean, we can do it on next. Let's see, we can do it on Tuesday. Let me see. What about it like Tuesday at, you said about an hour, right?"
+    },
+    {
+      "timestamp": "6:24",
+      "speaker": "Kevin",
+      "text": "Yeah. Usually about an hour."
+    },
+    {
+      "timestamp": "6:27",
+      "speaker": "Doug",
+      "text": "Okay. And I can do well. I mean, even on Monday, no hold on a second. So Tuesday, I can probably do it from like eleven fifteen"
+    },
+    {
+      "timestamp": "6:39",
+      "speaker": "Kevin",
+      "text": "let's see. I don't have eleven fifteen, but I do have eleven thirty on Tuesday."
+    },
+    {
+      "timestamp": "6:43",
+      "speaker": "Doug",
+      "text": "Yep. I can do that."
+    },
+    {
+      "timestamp": "6:44",
+      "speaker": "Kevin",
+      "text": "That would work. Perfect. Well, I will send that to you. And honestly, I have a couple emails for you. I guess what's the best one to send the link to? Is it the yen tran one or is it the \u2013? I actually also have the okmr18 at gmail."
+    },
+    {
+      "timestamp": "7:01",
+      "speaker": "Doug",
+      "text": "Yeah. the okmr18 at gmail that's my personal. So the best one will be the yen tran at acworthpremiumdentalcare dot com."
+    },
+    {
+      "timestamp": "7:06",
+      "speaker": "Kevin",
+      "text": "OK, perfect. Yeah, I'll send it to that one then. Perfect. And then we do have a \u2013, it's just a short kind of pre demo video we like to send out via text."
+    },
+    {
+      "timestamp": "7:16",
+      "speaker": "Doug",
+      "text": "Sure."
+    },
+    {
+      "timestamp": "7:17",
+      "speaker": "Kevin",
+      "text": "It's just a short video from our president. Does this number take text messages?"
+    },
+    {
+      "timestamp": "7:20",
+      "speaker": "Doug",
+      "text": "It does."
+    },
+    {
+      "timestamp": "7:22",
+      "speaker": "Kevin",
+      "text": "OK, perfect. Yeah, I will send that to it and I'll send you the link here shortly, but any questions or anything I might be able to help with?"
+    },
+    {
+      "timestamp": "7:29",
+      "speaker": "Doug",
+      "text": "No, that's it for now. You said your name was Kevin?"
+    },
+    {
+      "timestamp": "7:32",
+      "speaker": "Kevin",
+      "text": "Yeah, I'm Kevin, and then I'll actually have you with one of our regional directors on the demo."
+    },
+    {
+      "timestamp": "7:34",
+      "speaker": "Doug",
+      "text": "Perfect. Okay."
+    },
+    {
+      "timestamp": "7:36",
+      "speaker": "Kevin",
+      "text": "So they'll walk through everything. And, yeah, like I said, we might have to see how the first demo goes. We might have to make you guys out on the \u2013 or out on the office and come visit you here soon."
+    },
+    {
+      "timestamp": "7:47",
+      "speaker": "Doug",
+      "text": "Sure. Yeah, absolutely."
+    },
+    {
+      "timestamp": "7:49",
+      "speaker": "Kevin",
+      "text": "Perfect. Awesome. I will send that all over. I hope you have a great weekend and I know we'll look forward to seeing you on Tuesday."
+    },
+    {
+      "timestamp": "7:56",
+      "speaker": "Doug",
+      "text": "Sounds good. Thanks so much for your help."
+    },
+    {
+      "timestamp": "7:57",
+      "speaker": "Kevin",
+      "text": "You're welcome. All right. Bye."
+    },
+    {
+      "timestamp": "7:59",
+      "speaker": "Doug",
+      "text": "Bye bye."
+    }
+  ]
+}

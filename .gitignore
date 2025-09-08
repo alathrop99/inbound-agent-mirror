@@ -1,0 +1,22 @@
+# secrets & local stuff
+.env
+*.env
+.env.*
+# keys/tokens
+*.key
+*.pem
+# caches & venvs
+.venv/
+venv/
+__pycache__/
+*.pyc
+# OS/IDE junk
+.DS_Store
+*.code-workspace
+.vscode/
+# big local data or private knowledge
+knowledge/
+kb.index
+kb_meta.npy
+data/
+logs/

@@ -1,0 +1,240 @@
+{
+  "call_id": "tranquility_dental_arts_001",
+  "raw_conversation": [
+    {
+      "timestamp": "0:00",
+      "speaker": "Kevin",
+      "text": "Is this Dr. Winn?"
+    },
+    {
+      "timestamp": "0:02",
+      "speaker": "Justin",
+      "text": "Hi, yes, speaking."
+    },
+    {
+      "timestamp": "0:04",
+      "speaker": "Kevin",
+      "text": "Hey, this is Kevin with curve dental. I believe I got your demonstration request."
+    },
+    {
+      "timestamp": "0:08",
+      "speaker": "Justin",
+      "text": "I'm sorry?"
+    },
+    {
+      "timestamp": "0:09",
+      "speaker": "Kevin",
+      "text": "I believe I got your demonstration request."
+    },
+    {
+      "timestamp": "0:11",
+      "speaker": "Justin",
+      "text": "Yes."
+    },
+    {
+      "timestamp": "0:13",
+      "speaker": "Kevin",
+      "text": "Awesome. Well, yeah, I would love to learn just a little bit about the practice and see if I could get that set up for you."
+    },
+    {
+      "timestamp": "0:18",
+      "speaker": "Justin",
+      "text": "For sure. Yeah, we're a dental office. We're in California, orange county area. We're looking to switch our practice manager software. We're currently using open dental and just want to get like a walkthrough and kind of what you guys have to offer. First heard about you guys at the one of the Scott Luene conferences. And so, yeah, I just wanted to get some info on that."
+    },
+    {
+      "timestamp": "0:46",
+      "speaker": "Kevin",
+      "text": "Yeah, absolutely. And I know you mentioned open dental, any additional softwares you have in that environment?"
+    },
+    {
+      "timestamp": "0:53",
+      "speaker": "Justin",
+      "text": "You mean like imaging and things like that and everything that connects to it?"
+    },
+    {
+      "timestamp": "0:56",
+      "speaker": "Kevin",
+      "text": "Yep. Yeah, imaging, texting, things like that."
+    },
+    {
+      "timestamp": "1:00",
+      "speaker": "Justin",
+      "text": "Yeah. Yeah. So we're using yapi for our text messaging and online forms and we are using dtx studios for our cbct imaging. And we're currently looking on to adding on like a\u2026 kind of like a KPI like business metrics on there as well. I know you guys have something similar to that."
+    },
+    {
+      "timestamp": "1:30",
+      "speaker": "Kevin",
+      "text": "Yep. Perfect."
+    },
+    {
+      "timestamp": "1:31",
+      "speaker": "Justin",
+      "text": "And we're looking to simplify our treatment\u2026 presentations. I know you guys have something like that as well."
+    },
+    {
+      "timestamp": "1:45",
+      "speaker": "Justin",
+      "text": "Yeah. And I think that's about it."
+    },
+    {
+      "timestamp": "1:46",
+      "speaker": "Kevin",
+      "text": "Okay, perfect. Do you guys also take insurance in the office?"
+    },
+    {
+      "timestamp": "1:51",
+      "speaker": "Justin",
+      "text": "We do. Yes."
+    },
+    {
+      "timestamp": "1:52",
+      "speaker": "Kevin",
+      "text": "Perfect. Is that just processed through open dental or do you have another software in place there?"
+    },
+    {
+      "timestamp": "1:58",
+      "speaker": "Justin",
+      "text": "I believe it's through open dental. We're using like dental exchange mailing house, I believe that's called."
+    },
+    {
+      "timestamp": "2:00",
+      "speaker": "Kevin",
+      "text": "Okay\u2026 perfect. Okay. Awesome. Sweet. And then let's see. I know you mentioned open dental. Are you guys having any issues with open dental currently, or?"
+    },
+    {
+      "timestamp": "2:15",
+      "speaker": "Justin",
+      "text": "Not particularly. I mean, we like open dental, but we are thinking about opening up a new office too. And so, I mean, it'd be nice if we can have kind of something that's more central and cloud based to have easy access to it."
+    },
+    {
+      "timestamp": "2:31",
+      "speaker": "Kevin",
+      "text": "Yeah."
+    },
+    {
+      "timestamp": "2:32",
+      "speaker": "Justin",
+      "text": "Yeah. So we're opening up a new office in about maybe in about a few months."
+    },
+    {
+      "timestamp": "2:37",
+      "speaker": "Kevin",
+      "text": "Oh, nice."
+    },
+    {
+      "timestamp": "2:38",
+      "speaker": "Justin",
+      "text": "And we're looking into changing software just so that, you know, makes things easier. We're also wondering. About like prescriptions too. And if you guys like offer anything on that end to like send E scripts. Okay?"
+    },
+    {
+      "timestamp": "2:50",
+      "speaker": "Kevin",
+      "text": "We do. Yep. Yeah. So it's done just through inside of curve through the software. I think it's technically through like dr first or copia, but you don't have to sign up separately. It's just through curve. Are you sending prescriptions currently with like dosespot or something?"
+    },
+    {
+      "timestamp": "3:03",
+      "speaker": "Justin",
+      "text": "Gotcha. Okay. Yeah, we're using dosespot,"
+    },
+    {
+      "timestamp": "3:09",
+      "speaker": "Kevin",
+      "text": "Nice. Perfect. Awesome. Well, I appreciate you walking through everything. I don't have a ton of other questions. I know usually the demos take about an hour or so. Do you have a time maybe this week or next week you had in mind?"
+    },
+    {
+      "timestamp": "3:22",
+      "speaker": "Justin",
+      "text": "Yeah."
+    },
+    {
+      "timestamp": "3:27",
+      "speaker": "Justin",
+      "text": "So, would you all do a demonstration tomorrow, you think? Or? Even? Yeah."
+    },
+    {
+      "timestamp": "3:30",
+      "speaker": "Kevin",
+      "text": "I could, yeah."
+    },
+    {
+      "timestamp": "3:35",
+      "speaker": "Justin",
+      "text": "I think tomorrow would be good if you guys do."
+    },
+    {
+      "timestamp": "3:37",
+      "speaker": "Kevin",
+      "text": "Okay."
+    },
+    {
+      "timestamp": "3:41",
+      "speaker": "Justin",
+      "text": "You think at one P. M pacific\u2026 Central Time, Pacific Time? Yeah."
+    },
+    {
+      "timestamp": "3:46",
+      "speaker": "Kevin",
+      "text": "Let me see. I don't have one o 'clock but I do have 115 Pacific Time."
+    },
+    {
+      "timestamp": "3:53",
+      "speaker": "Justin",
+      "text": "Okay. 115 works. Where are you guys headquarters?"
+    },
+    {
+      "timestamp": "3:55",
+      "speaker": "Kevin",
+      "text": "Okay. So, I believe we're headquartered in Atlanta, Georgia, but we have a team out in salt lake city, Utah, and then also a team out in Calgary. So, most of our team is in Atlanta and salt lake city."
+    },
+    {
+      "timestamp": "4:03",
+      "speaker": "Justin",
+      "text": "Okay. Okay. Gotcha."
+    },
+    {
+      "timestamp": "4:12",
+      "speaker": "Justin",
+      "text": "Okay. Yeah, I think 115 would be good."
+    },
+    {
+      "timestamp": "4:13",
+      "speaker": "Kevin",
+      "text": "Okay, perfect. Well, I will set that up. Is it good to send the link to your, it looks like the Justin dot omfs at Gmail?"
+    },
+    {
+      "timestamp": "4:19",
+      "speaker": "Justin",
+      "text": "Thank you. Yeah, that works."
+    },
+    {
+      "timestamp": "4:23",
+      "speaker": "Kevin",
+      "text": "Okay, perfect. I will send that to that, and then we do just have a quick pre demo video we'd like to send out via text. It's just a short video from our president. Is this a good number? I could have that sent out on?"
+    },
+    {
+      "timestamp": "4:29",
+      "speaker": "Justin",
+      "text": "Okay. Yeah, that's fine."
+    },
+    {
+      "timestamp": "4:30",
+      "speaker": "Kevin",
+      "text": "Okay. Perfect. Well, I will send the link over and then that text over here shortly, but any questions I might be able to help with?"
+    },
+    {
+      "timestamp": "4:42",
+      "speaker": "Justin",
+      "text": "No, that's it."
+    },
+    {
+      "timestamp": "4:43",
+      "speaker": "Kevin",
+      "text": "Awesome. Well, thank you for your time and I know we'll look forward to seeing you tomorrow."
+    },
+    {
+      "timestamp": "4:47",
+      "speaker": "Justin",
+      "text": "Okay. All right. I'll see you tomorrow. Yep. Okay. Bye bye."
+    }
+  ]
+}

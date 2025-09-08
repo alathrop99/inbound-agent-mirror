@@ -1,0 +1,230 @@
+{
+  "call_id": "premier_dental_care_001",
+  "raw_conversation": [
+    {
+      "timestamp": "0:00",
+      "speaker": "Kevin",
+      "text": "hello, this is Kevin."
+    },
+    {
+      "timestamp": "0:02",
+      "speaker": "Daniel",
+      "text": "Hey, Kevin. Hey, this is Dr. Daniel Hines\u2026 returning your call regarding curve dental."
+    },
+    {
+      "timestamp": "0:10",
+      "speaker": "Kevin",
+      "text": "Yeah, appreciate you giving me a call back. I'd love to learn just a little bit about your practice and see if I can help set that up for you."
+    },
+    {
+      "timestamp": "0:17",
+      "speaker": "Daniel",
+      "text": "Oh, okay. So, yes, my practice, I'm in Washington DC, a solo dentist with five operatories. And I was \u2013, I currently use dentrix ascend. You're familiar with that software?"
+    },
+    {
+      "timestamp": "0:39",
+      "speaker": "Kevin",
+      "text": "I am actually, that's actually our most common cloud based conversion that we do"
+    },
+    {
+      "timestamp": "0:44",
+      "speaker": "Daniel",
+      "text": "Oh, yeah?"
+    },
+    {
+      "timestamp": "0:45",
+      "speaker": "Kevin",
+      "text": "Yeah, it is."
+    },
+    {
+      "timestamp": "0:46",
+      "speaker": "Daniel",
+      "text": "Well, what's the biggest difference\u2026 between your software and dentrix ascend?"
+    },
+    {
+      "timestamp": "0:54",
+      "speaker": "Kevin",
+      "text": "Definitely, \u2013 definitely a couple things. I think one is we're going to be a little bit more customizable, a little bit more user friendly. That's kind of the first thing that I hear on some feedback. The other thing and I think part of the reason why they're one of our most common conversions is, you know, everyone uses dentrix, they switch to ascend because they think it's going to be similar. And then it's just completely different and not what they were expecting. So, I think that's kind of one of the reasons why we see it the most. But \u2013, I mean, besides that honestly\u2026 there's going to be a lot of differences. I think some of the workflows is going to be a little more customizable for yourself. Treatment plan is going to be a little bit easier, I think with curve, we have a mobile app too that you could access on your phone. So just ease of use, I think is going to be a big thing. What's \u2013"
+    },
+    {
+      "timestamp": "1:48",
+      "speaker": "Daniel",
+      "text": "What about \u2013, do\u2026 you have a feature in your software that's say a, to do list? Like you could share among the staff. Like if I want to have my team to call Ms. jones, take out the trash, you know, give them a to do list. Do you have anything like that?"
+    },
+    {
+      "timestamp": "2:16",
+      "speaker": "Kevin",
+      "text": "We do. Yeah, ours is going to be very similar. I don't know if you've ever seen \u2013. Have you heard of a company called Asana, they're like a task management software?"
+    },
+    {
+      "timestamp": "2:25",
+      "speaker": "Daniel",
+      "text": "No."
+    },
+    {
+      "timestamp": "2:26",
+      "speaker": "Kevin",
+      "text": "Oh, okay. I was going to say ours is going to be similar but yeah, you could definitely assign tasks. There's something that you could even have \u2013 assign an auto task for things. So it's like, hey, this patient's due for re care, you know, give them a call. You could also have things be automatic, but yeah, you could definitely \u2013 customize any task and assign that to specific team members."
+    },
+    {
+      "timestamp": "2:46",
+      "speaker": "Daniel",
+      "text": "Oh, okay. And then what about the cost compared to dentrix ascend?"
+    },
+    {
+      "timestamp": "2:55",
+      "speaker": "Kevin",
+      "text": "Yeah, I know ours is going to be a little bit different, I think, because I know they charge per user from what I know, and I hear a lot of times like hidden fees. So it's like at the end of the month, like you think you're going to be paying X, but then at the end of the month, you're paying \u2013 more than X."
+    },
+    {
+      "timestamp": "3:13",
+      "speaker": "Daniel",
+      "text": "Yeah, that's very true."
+    },
+    {
+      "timestamp": "3:15",
+      "speaker": "Kevin",
+      "text": "Yeah. So that's something that I hear a good bit. I know with curve there's not going to be any hidden fees like you get unlimited text messages, unlimited data, unlimited non doctor users. So you're going to get a lot of more unlimited things and not get nickeled and dimed for all these, just random things that I hear with ascend. So ours, pretty much the pricing is just going to be based off of, you know, locations and number of doctor providers\u2026 a little bit like a treatment plan though it just depends on, you know, the exact diagnosis of exactly what you need. But yeah, ours is going to be a little bit more \u2013 definitely more transparent pricing because I hear that a good bit with ascend and it's just a lot of hidden fees unfortunately."
+    },
+    {
+      "timestamp": "3:56",
+      "speaker": "Daniel",
+      "text": "Oh, okay. So what is it? And give me a typical cost that I would incur with your software?"
+    },
+    {
+      "timestamp": "4:10",
+      "speaker": "Kevin",
+      "text": "Yeah. I think a typical ballpark probably around 700 a month is typically what they see with everything inside the software and that's not going to like I said, change. You'll get unlimited data, unlimited claims, all those things, unlimited support too. So."
+    },
+    {
+      "timestamp": "4:27",
+      "speaker": "Daniel",
+      "text": "Okay. Now, can you process credit cards through your software?"
+    },
+    {
+      "timestamp": "4:34",
+      "speaker": "Kevin",
+      "text": "Yeah, absolutely. So, yeah, you could \u2013 even pass on \u2013 I think they call it like a convenience fee or surcharge or whatever, but you could even pass that on to the patients too if that's something you like to do, but we'll definitely be able to, you know, process any payments and then you can have them automatically posted inside of curve too."
+    },
+    {
+      "timestamp": "4:53",
+      "speaker": "Daniel",
+      "text": "Oh, yeah. Oh, okay. Does it matter? \u2013 with dentrix, there was only one credit card processor that \u2013\u2026 I could choose \u2013. That was the only one that was linked with dentrix that would integrate with ascend. Yeah, you know, if I used any others, it wouldn't integrate with ascend. So I would have to do\u2026 the transaction and then manually post it to ascend. But are you saying that I could choose my credit card processor? And then, you know, then I \u2013 there were several of them I could choose from that would integrate\u2026 with curve?"
+    },
+    {
+      "timestamp": "5:41",
+      "speaker": "Kevin",
+      "text": "Well, now we do \u2013. So, yeah, I will say we have a couple like integrated options. So, yeah, we have two companies that you can choose from to kind of get those payments and I know they have just unique partnerships with us to where they'll kind of meet or beat what you're currently using or what your current rates are. But something that's kind of a third option that we have coming soon is going to be \u2013 we have our own in house payments coming out. So it's just going to be curve pay and that's going to be even more flexible. I think on some of the rates too."
+    },
+    {
+      "timestamp": "6:14",
+      "speaker": "Daniel",
+      "text": "Oh, okay. What \u2013 if I sign up with curve, how long would it take to get started?"
+    },
+    {
+      "timestamp": "6:26",
+      "speaker": "Kevin",
+      "text": "Yeah. So \u2013, I'll say there's a typical timeframe, but are you on any kind of timeline when you're like need to make a switch or anything like that?"
+    },
+    {
+      "timestamp": "6:34",
+      "speaker": "Daniel",
+      "text": "Yes. Let me explain my situation. So dentrix and I are in\u2026 dispute about how much I owe and not going very well, although I \u2013, and so they disabled my account."
+    },
+    {
+      "timestamp": "6:58",
+      "speaker": "Kevin",
+      "text": "Oh, man."
+    },
+    {
+      "timestamp": "7:01",
+      "speaker": "Daniel",
+      "text": "Hold on\u2026 for one moment, please."
+    },
+    {
+      "timestamp": "7:27",
+      "speaker": "Daniel",
+      "text": "Oh, okay. I'm back."
+    },
+    {
+      "timestamp": "7:31",
+      "speaker": "Kevin",
+      "text": "Well, yeah, I hate to hear \u2013 that's kind of what you're dealing with dentrix, I know \u2013. So, yeah, we do have a typical timeframe of usually to convert the data. It's going to be about a 30 day timeframe from start to finish. And a lot of that is just dependent on completing training because we want to make sure you guys feel comfortable with it now on the inverse of that because we do have offices coming in where like for example, with the California wildfires, I know \u2013, you know, there was offices where like we need \u2013 like it's Thursday and they're like we need a software by Monday when we see patients and they're like we just need something to where we can treatment plan bill schedule, you know, just standard things like we don't need everything set up yet, just those kind of standard things. And I know in those unique scenarios, we are usually able to help there. So what we'll do is a little bit different of an implementation. So we'll \u2013 get the database set up for you, which usually we can have in, you know, one to two business days and then from there get, you know, some other things set up so that way you can see patients with it and you're not just, you know, left in the dark or anything on that. So."
+    },
+    {
+      "timestamp": "8:37",
+      "speaker": "Daniel",
+      "text": "Yeah. Okay. Well, I have\u2026 to\u2026 \u2013, I'm going to go over \u2013. I just looked at a couple of different software to\u2026 I have a couple more to look at, yours sounds good. But probably by tomorrow or Monday at the latest, I'll\u2026 let you know if I want to\u2026 go with your software. I don't know if it's helpful or not to do a demo or, yeah."
+    },
+    {
+      "timestamp": "9:26",
+      "speaker": "Kevin",
+      "text": "I think that definitely would be a good thing. That way you could just see it and get a better feel for it. I mean, we could talk about it and I think it's just easier to see everything. Did you have any time? Maybe I could even potentially do something this afternoon for you? Maybe like five PM Eastern Time or something tomorrow, if you were, you know, had some time to do a demo."
+    },
+    {
+      "timestamp": "9:50",
+      "speaker": "Daniel",
+      "text": "Probably. Tomorrow would be better."
+    },
+    {
+      "timestamp": "9:55",
+      "speaker": "Daniel",
+      "text": "I don't know. Are you available in the morning\u2026 eight or nine?"
+    },
+    {
+      "timestamp": "10:11",
+      "speaker": "Kevin",
+      "text": "Eight or nine. I could definitely make a nine  AM work. I think. Well, I could do\u2026 let me see. So I'm just checking our product specialist schedule too. I think I could do maybe\u2026 at eight 30. For sure. Could do an 845. I think I could potentially do an eight 30 though. Would, I guess 840 or I guess any of those times potentially work for you?"
+    },
+    {
+      "timestamp": "10:41",
+      "speaker": "Daniel",
+      "text": "Yeah, those are fine. Yeah. What will you do? Just text me or email me?"
+    },
+    {
+      "timestamp": "10:50",
+      "speaker": "Kevin",
+      "text": "Yeah, I'll send you a text to let you know, and then I'll send you the email with the link. I guess if you had to choose one, does the eight 30, 845 or nine work better for you?"
+    },
+    {
+      "timestamp": "11:04",
+      "speaker": "Daniel",
+      "text": "Oh, eight 30"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Kevin",
+      "text": "Eight 30? Okay, perfect. And I might even try to see if I could do an eight AM for you. Would that be better?"
+    },
+    {
+      "timestamp": "11:12",
+      "speaker": "Daniel",
+      "text": "Yeah, the earlier the better, okay"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Kevin",
+      "text": "Okay. Earlier, the better. Perfect. Well, I will. Yeah, I'll definitely get a schedule for you tomorrow morning. I'm just locking down the exact time for you, but it'll definitely be between that eight to nine time. Okay? And I'll send you a text on this number to let you know, and then, yeah, I'll send you an email with the confirmation link."
+    },
+    {
+      "timestamp": "11:35",
+      "speaker": "Daniel",
+      "text": "Okay. Thank you so much."
+    },
+    {
+      "timestamp": "11:37",
+      "speaker": "Kevin",
+      "text": "Yeah, of course. Well, yeah, great talk with you and you too. Yeah, we'll be in touch soon."
+    },
+    {
+      "timestamp": "11:44",
+      "speaker": "Daniel",
+      "text": "Okay. Bye."
+    },
+    {
+      "timestamp": "11:45",
+      "speaker": "Kevin",
+      "text": "Alright. Bye."
+    }
+  ]
+}

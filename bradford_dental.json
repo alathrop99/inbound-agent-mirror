@@ -1,0 +1,255 @@
+{
+  "call_id": "bradford_dental_001",
+  "raw_conversation": [
+    {
+      "timestamp": "0:00",
+      "speaker": "Ray",
+      "text": "Bradford dental, Ray speaking."
+    },
+    {
+      "timestamp": "0:02",
+      "speaker": "Kevin",
+      "text": "Good morning. This is Kevin with curve dental. Just got a demonstration request from. I don't know if that's the doctor, Lenard."
+    },
+    {
+      "timestamp": "0:12",
+      "speaker": "Ray",
+      "text": "Yes, hold on. One second. Let me just check with him."
+    },
+    {
+      "timestamp": "0:14",
+      "speaker": "Kevin",
+      "text": "Of course. Yeah."
+    },
+    {
+      "timestamp": "0:28",
+      "speaker": "Lenard",
+      "text": "This is Dr. Karen speaking."
+    },
+    {
+      "timestamp": "0:30",
+      "speaker": "Kevin",
+      "text": "Hey, Dr. Karen. It's Kevin with curve dental"
+    },
+    {
+      "timestamp": "0:34",
+      "speaker": "Lenard",
+      "text": "Kevin. How are you. You guys are quick. I love it"
+    },
+    {
+      "timestamp": "0:35",
+      "speaker": "Kevin",
+      "text": "Appreciate it. Yeah, would love to learn just a little bit about your process and see if I could get that set up."
+    },
+    {
+      "timestamp": "0:40",
+      "speaker": "Lenard",
+      "text": "Sure. No. So, we\u2026 kind of like a smaller practice boutique practice, right? With fee for service, but I'm buying in the second location and I really want to move away from the server. We have dentrix and I got to be honest with you. I despise dentrix. It's like one of the most bugged down old softwares. They're just clunky and weird. So, yeah, the idea was basically to move to cloud because, you know, right now, like I have all these outside vendors. I have nexhealth. I have Pearl AI. I have all this kind of things tapping into my system and I know you guys are pretty comprehensive all in one kind of encompassing solution. So, I kind of wanted to really play with your software like in a sandbox and just kind of feel it out. I also wanted to ask what the\u2026 transition time frame is and data transfer, like how do you guys do that? And like what's involved and all that stuff?"
+    },
+    {
+      "timestamp": "1:34",
+      "speaker": "Kevin",
+      "text": "Yeah, yeah, absolutely. Well, congratulations. You mentioned, sorry, my phone was kind of disconnected there, but you mentioned you were buying a second practice, right? Yes. And that's why? Okay. Well, congratulations. Yeah, thank you. That's definitely very exciting. And I hate to hear that uh, you\u2019re not super happy with dentrix currently."
+    },
+    {
+      "timestamp": "1:52",
+      "speaker": "Lenard",
+      "text": "Yeah, I never liked it honestly. I've been in dentrix for 15 years and I, that's my least favorite software."
+    },
+    {
+      "timestamp": "2:00",
+      "speaker": "Kevin",
+      "text": "Oh, wow. Well, that is, I feel like you're not alone in that. Dentrix actually is our most common conversion that we see. So, I know for the transition, typically, it takes about 30 to 35 days, but are you on any kind of timeline? And when you were needing it done by?"
+    },
+    {
+      "timestamp": "2:16",
+      "speaker": "Lenard",
+      "text": "So, I am right. So the, well, I'm not at my practice, but the other practice, we are closing\u2026 in about a month."
+    },
+    {
+      "timestamp": "2:27",
+      "speaker": "Kevin",
+      "text": "Okay."
+    },
+    {
+      "timestamp": "2:29",
+      "speaker": "Lenard",
+      "text": "And you know, so the other practice has eaglesoft."
+    },
+    {
+      "timestamp": "2:31",
+      "speaker": "Kevin",
+      "text": "OK."
+    },
+    {
+      "timestamp": "2:34",
+      "speaker": "Lenard",
+      "text": "And I will have to transfer a license. So I don't want to be paying for licenses if I'm going to be signing up with, you know, with curve dental. I also, they don't have, the server is about to die in that second location and I don't want to be paying for the server if I don't need it."
+    },
+    {
+      "timestamp": "2:47",
+      "speaker": "Kevin",
+      "text": "Yeah, that makes sense. Well, I was going to say, I know, so I mentioned typically, it's about 30 to 35 days. But for scenarios just like this where it's like we're on kind of a time crunch, I know we can expedite things. It's not going to be, you know, the typical kind of seamless transition that we always do. It's still going to be a pretty good transition but we'll just do a couple things to make sure you're up and running able to use the software. So it can look like a couple different things. But yeah, I know back when, you know, the California wildfire happened, you know, there was offices that were like we need this tomorrow and so it was like a Thursday and by Monday, we would have them at least able to use software and be able to see patients. So I know we are able to expedite some things here and there for you."
+    },
+    {
+      "timestamp": "3:29",
+      "speaker": "Lenard",
+      "text": "Is there a risk of patient data loss at all or?"
+    },
+    {
+      "timestamp": "3:33",
+      "speaker": "Kevin",
+      "text": "Not really a risk of patient data loss. It's just more of a we'll put the data in a little bit after. So you'll still have it. We'll make a copy of it because we don't mess with any of the data. Like we're not going to be manipulating or changing it. Really, we'll just make a copy of it, have that, and then that's where we'll clean up the data. So typically, what we'll do is start with that with the preliminary conversion. But depending on, you know, when you need everything done by that's what we'll kind of change the order of things just to make it go by a little bit quicker. And then usually what we'll do is make sure you just complete all the training before going live that way, you just make sure you're having everything set up, the right way. Usually I mean, it's most people pick up curve in about one to three days. I know there's eight sessions before you go live usually, but we can usually combine a couple or, you know, change some things around, see what makes the most sense for you guys."
+    },
+    {
+      "timestamp": "4:28",
+      "speaker": "Lenard",
+      "text": "How long is the training? Can this be done like in a day?"
+    },
+    {
+      "timestamp": "4:32",
+      "speaker": "Kevin",
+      "text": "I know. Yeah, I know what we definitely do have. I've seen that for some offices too is like maybe even come on site, do it for a day so it can look like a couple of different things. So when I, I'll connect you with one of our regional directors so they'll be able to discuss some of those exact timeframes with you and just figure out exactly what makes the most sense for you. And then."
+    },
+    {
+      "timestamp": "4:54",
+      "speaker": "Lenard",
+      "text": "Because I really like I said, I don't want to be paying for a license on eaglesoft if I don't have to, because it's you know, a lot of money actually, it's like four or five grand."
+    },
+    {
+      "timestamp": "5:01",
+      "speaker": "Kevin",
+      "text": "Oh, yeah, yeah, definitely. And then I know also, you mentioned you want to do a sandbox, so we should be able to do that for you as well. We'll just definitely want to do things sooner than later. Do you have any time maybe this week to walk through everything?"
+    },
+    {
+      "timestamp": "5:16",
+      "speaker": "Lenard",
+      "text": "I might have some time tomorrow."
+    },
+    {
+      "timestamp": "5:19",
+      "speaker": "Kevin",
+      "text": "Tomorrow."
+    },
+    {
+      "timestamp": "5:21",
+      "speaker": "Lenard",
+      "text": "Tomorrow, it might be tricky."
+    },
+    {
+      "timestamp": "5:27",
+      "speaker": "Lenard",
+      "text": "What about weekends? No?"
+    },
+    {
+      "timestamp": "5:29",
+      "speaker": "Kevin",
+      "text": "Weekend? I can always ask, I know just with this coming weekend and just, yeah, it doesn't look like we have anything currently. I can definitely see what we can do."
+    },
+    {
+      "timestamp": "5:39",
+      "speaker": "Lenard",
+      "text": "Let me ask this question, what are we talking timeframe as far as like how long, how much time will it take for me to get into the sandbox and play it out with it?"
+    },
+    {
+      "timestamp": "5:47",
+      "speaker": "Kevin",
+      "text": "Oh, I mean, we could potentially like if we did the demo tomorrow, we could even potentially have a sandbox same day. I think usually for that, do a couple things, we can do a guided or an unguided. With the unguided, we just usually send over an NDA beforehand. With the guided, we'll obviously sit down on the meeting. So depending on when we're able to do that just because we like to start with the initial demo. So you at least see it, make sure it's a potential good fit. And then from there, we'll do the sandbox."
+    },
+    {
+      "timestamp": "6:17",
+      "speaker": "Lenard",
+      "text": "Do you have anything available tomorrow?"
+    },
+    {
+      "timestamp": "6:19",
+      "speaker": "Kevin",
+      "text": "I do any particular time you're looking at?"
+    },
+    {
+      "timestamp": "6:24",
+      "speaker": "Lenard",
+      "text": "Probably like maybe\u2026 like one two o 'clock maybe? One, two three four,"
+    },
+    {
+      "timestamp": "6:29",
+      "speaker": "Kevin",
+      "text": "I could do, yeah, we could definitely do."
+    },
+    {
+      "timestamp": "6:33",
+      "speaker": "Lenard",
+      "text": "Eastern Time I have some time up to two."
+    },
+    {
+      "timestamp": "6:34",
+      "speaker": "Kevin",
+      "text": "Okay. Well, I have, I do have a two o 'clock a 215, a 345, and a four, any of those stick out to you?"
+    },
+    {
+      "timestamp": "6:44",
+      "speaker": "Lenard",
+      "text": "Can we do 345?"
+    },
+    {
+      "timestamp": "6:46",
+      "speaker": "Kevin",
+      "text": "Yeah, yeah, definitely. We'll set you up for 345."
+    },
+    {
+      "timestamp": "6:49",
+      "speaker": "Lenard",
+      "text": "I just need access to the computer basically, right?"
+    },
+    {
+      "timestamp": "6:52",
+      "speaker": "Kevin",
+      "text": "Yep. Yeah. Just access to a computer and then."
+    },
+    {
+      "timestamp": "6:54",
+      "speaker": "Lenard",
+      "text": "And Mac is fine?"
+    },
+    {
+      "timestamp": "6:56",
+      "speaker": "Kevin",
+      "text": "Oh, yeah. Yeah. Mac is fine."
+    },
+    {
+      "timestamp": "6:58",
+      "speaker": "Lenard",
+      "text": "Okay."
+    },
+    {
+      "timestamp": "7:00",
+      "speaker": "Kevin",
+      "text": "Yeah, because we'll just do the, do it via zoom and just kind of share our screen that way. Perfect. Awesome. Well, I will send that over to you here shortly. Any other questions I might be able to help with?"
+    },
+    {
+      "timestamp": "7:10",
+      "speaker": "Lenard",
+      "text": "Thank you. No, no, I think well, and then tomorrow, we can talk more about the pricing and all that right?"
+    },
+    {
+      "timestamp": "7:16",
+      "speaker": "Kevin",
+      "text": "Definitely. Yeah, definitely. I know. Let me see. I have you set up with Chip Richards, so, I know Chip, yeah, I'll give him a rundown of everything, let him know kind of the time frame and things. So he'll be prepared tomorrow to just dive into it with you."
+    },
+    {
+      "timestamp": "7:27",
+      "speaker": "Lenard",
+      "text": "I appreciate it. Thank you so much. Thank you for calling."
+    },
+    {
+      "timestamp": "7:29",
+      "speaker": "Kevin",
+      "text": "Of course. Thank you. Yeah, absolutely. Bye bye."
+    },
+    {
+      "timestamp": "7:32",
+      "speaker": "Lenard",
+      "text": "Bye."
+    }
+  ]
+}

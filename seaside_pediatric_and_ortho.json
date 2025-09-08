@@ -1,0 +1,245 @@
+{
+  "call_id": "seaside_pediatric_and_ortho_001",
+  "raw_conversation": [
+    {
+      "timestamp": "0:00",
+      "speaker": "Phone Caller #1",
+      "text": "good afternoon, seaside pediatric dentistry and orthodontics,"
+    },
+    {
+      "timestamp": "0:03",
+      "speaker": "Kevin",
+      "text": "hey, good afternoon. I'm calling with curve dental. Just got a demonstration request from Kaylee. I was going to see if I might be able to set that up for her."
+    },
+    {
+      "timestamp": "0:10",
+      "speaker": "Phone Caller #1",
+      "text": "Curve dental. I'm going to put you on a brief hold."
+    },
+    {
+      "timestamp": "0:13",
+      "speaker": "Kevin",
+      "text": "Sounds good."
+    },
+    {
+      "timestamp": "1:26",
+      "speaker": "Kaylee",
+      "text": "Hi, thank you for holding. This is Kaylee."
+    },
+    {
+      "timestamp": "1:28",
+      "speaker": "Kevin",
+      "text": "Hey, Kaylee. It's Kevin with curve dental, just got your demonstration request."
+    },
+    {
+      "timestamp": "1:34",
+      "speaker": "Kaylee",
+      "text": "Yes."
+    },
+    {
+      "timestamp": "1:35",
+      "speaker": "Kevin",
+      "text": "Awesome. Well, we'd love to learn just a little bit about the practice and see if I could get that set up for you."
+    },
+    {
+      "timestamp": "1:40",
+      "speaker": "Kaylee",
+      "text": "Awesome. Do you have specific questions or do you want me to just tell you about our practice?"
+    },
+    {
+      "timestamp": "1:46",
+      "speaker": "Kevin",
+      "text": "Well, I guess to start what's got you guys looking at other software?"
+    },
+    {
+      "timestamp": "1:51",
+      "speaker": "Kaylee",
+      "text": "We've had the same software for quite a while, and they are currently implementing a different insurance verification and claiming thing. And the prices have been skyrocketing with them. We also currently have two different software systems, one for our orthodontic side, and one for our pediatric side. So, I was also looking for something to see if it's possible to combine the two for easy, easier access. I don't know if you've heard of that happening. We also have two office locations, and so that's kind of been an issue where in one of my office locations, we have to remote into our other office to access certain patient files. So, I just want to kind of get some quotes and see if there's something easier that would work better for our practice."
+    },
+    {
+      "timestamp": "2:42",
+      "speaker": "Kevin",
+      "text": "Yeah, that definitely makes sense. And I guess what softwares do you guys currently have between the two offices?"
+    },
+    {
+      "timestamp": "2:47",
+      "speaker": "Kaylee",
+      "text": "Dolphin management for orthodontics and dentrix for our pediatric side."
+    },
+    {
+      "timestamp": "2:54",
+      "speaker": "Kevin",
+      "text": "Perfect. And then do you guys use anything for like reminders or forms or imaging things like that?"
+    },
+    {
+      "timestamp": "3:00",
+      "speaker": "Kaylee",
+      "text": "We do. So we're kind of all over the place with that right now. So, there's through dentrix, they have it's called like web manager. That's how we do a lot of our lettering systems. And then dolphin has its own lettering system. And as far as appointment reminders, it's through weave\u2026 which is, yeah."
+    },
+    {
+      "timestamp": "3:29",
+      "speaker": "Kevin",
+      "text": "Perfect. Weave is that phones, forms, texting, all those things."
+    },
+    {
+      "timestamp": "3:33",
+      "speaker": "Kaylee",
+      "text": "That is everything texting, phone calls, yeah, appointment reminders, billing. Actually, we don't do. Oh, we actually, we do the payments through there now too. We have the billing through there too. We do not use their letters though we initially signed up for that, but then we went back to the dentrix one using their web manager. I do not know why. That was my other manager that decided that."
+    },
+    {
+      "timestamp": "3:59",
+      "speaker": "Kevin",
+      "text": "Gotcha. So, yeah, sounds like consolidation just something easier to use, you know, cloud based being able to access between the two locations. And I know you mentioned insurance verification. Was that, is that something you guys are trying to like? Sorry, I heard insurance at the beginning. Was that something you guys were implementing or?"
+    },
+    {
+      "timestamp": "4:21",
+      "speaker": "Kaylee",
+      "text": "No. So, what we do our own insurance verification. And then we file claims through another company called vine\u2026 that's always been like connected to our dentrix. Well, they're no longer allowing us to use the third party and they want, which is it's fine. I get it, but their price increase for using their insurance verification slash filing claim system. Is it's quite ridiculous. We're just quite getting kind of sick of them."
+    },
+    {
+      "timestamp": "4:53",
+      "speaker": "Kevin",
+      "text": "No, that makes sense."
+    },
+    {
+      "timestamp": "4:55",
+      "speaker": "Kaylee",
+      "text": "I mean, I wanted the ease of access, like you said, like consolidate and the ease of access. Like I do want all that. It'd be super awesome. If it's like one click family file, you can do the, you know, insurance verification through it. It's fine. It's just if\u2026 there's the right price point on it. I mean, we can check our own insurance. It's not that big of a deal."
+    },
+    {
+      "timestamp": "5:14",
+      "speaker": "Kevin",
+      "text": "Yeah. Makes sense. Well, awesome. Yeah, I feel like based off what you said, I feel like that's not too much to ask for and excited to have our team show you guys curve. I know we do work with a lot of pediatric ortho offices that are kind of split like that."
+    },
+    {
+      "timestamp": "5:29",
+      "speaker": "Kaylee",
+      "text": "Okay."
+    },
+    {
+      "timestamp": "5:31",
+      "speaker": "Kevin",
+      "text": "Yeah, no, I mean, just full transparency. I know we, like I said, do work with a lot of, we even work with ortho specific. It's going to be a little bit, but I'm going to say lacking a little bit on the ortho side."
+    },
+    {
+      "timestamp": "5:47",
+      "speaker": "Kaylee",
+      "text": "Okay. That's really cool. I've heard that it's okay. I've heard that a lot. And then because we have that's why we have dolphin management which has been working out for us just fine. It's not the end of the world that we have two different systems. It's just one of those things that, you know, eventually down the road, if we can make it, yeah, that's going to be combined to be rad."
+    },
+    {
+      "timestamp": "6:06",
+      "speaker": "Kevin",
+      "text": "And I know we are working on those. And like I said, we do have some specific ortho offices using it. So it's not like there's nothing there, you know, just, I guess weighing the benefits pros and cons of it for sure. Awesome. I know usually the demos take about an hour or so. Is there a time maybe tomorrow or next week you guys had in mind?"
+    },
+    {
+      "timestamp": "6:27",
+      "speaker": "Kaylee",
+      "text": "I think next week would probably be best. You said it takes about an hour."
+    },
+    {
+      "timestamp": "6:33",
+      "speaker": "Kevin",
+      "text": "Yeah. Usually about an hour."
+    },
+    {
+      "timestamp": "6:36",
+      "speaker": "Kaylee",
+      "text": "Give me just a second. Let's see what I have."
+    },
+    {
+      "timestamp": "6:45",
+      "speaker": "Kaylee",
+      "text": "I just want to make sure both of my office manager and I are here. Do you have any availability next Tuesday by chance? The ninth?"
+    },
+    {
+      "timestamp": "6:53",
+      "speaker": "Kevin",
+      "text": "I do, are you looking? I don't have a ton in the morning. Earliest time I have is 10 45, but looks like we can do almost any time after that up until about six o 'clock Eastern Time?"
+    },
+    {
+      "timestamp": "7:05",
+      "speaker": "Kaylee",
+      "text": "12 o 'clock would be awesome."
+    },
+    {
+      "timestamp": "7:08",
+      "speaker": "Kevin",
+      "text": "12 o 'clock oh, and are you guys Pacific Time?"
+    },
+    {
+      "timestamp": "7:11",
+      "speaker": "Kaylee",
+      "text": "We are."
+    },
+    {
+      "timestamp": "7:12",
+      "speaker": "Kevin",
+      "text": "OK, perfect. Yeah, I should have mentioned that first. So I was giving you Eastern Time calls. So 12 pacific would work great. I can set you up for that."
+    },
+    {
+      "timestamp": "7:22",
+      "speaker": "Kaylee",
+      "text": "OK. So, is this going to be like over the phone like remote in, or is somebody going to be coming into our office?"
+    },
+    {
+      "timestamp": "7:28",
+      "speaker": "Kevin",
+      "text": "So, we'll actually usually we just do the first demo just via zoom. So we'll send you a link just kind of share our screen and just do it virtually. So, really just need just a tablet or computer. Yeah."
+    },
+    {
+      "timestamp": "7:38",
+      "speaker": "Kaylee",
+      "text": "That makes things easy for everybody. OK, perfect."
+    },
+    {
+      "timestamp": "7:43",
+      "speaker": "Kevin",
+      "text": "Yeah, we'll send that. I have. Looks like Kaylee at my seaside smiles. Is that good to send the link to?"
+    },
+    {
+      "timestamp": "7:49",
+      "speaker": "Kaylee",
+      "text": "Yes, please."
+    },
+    {
+      "timestamp": "7:50",
+      "speaker": "Kevin",
+      "text": "OK, perfect. And then we do just have a short pre demo video. We like to send out. Just a short video from our president. Is, does this number accept text messages by chance?"
+    },
+    {
+      "timestamp": "8:04",
+      "speaker": "Kaylee",
+      "text": "It does. Yes, it does."
+    },
+    {
+      "timestamp": "8:07",
+      "speaker": "Kevin",
+      "text": "OK, perfect. Yeah, I think it'll just send out a message and then it'll say reply, yes, and then the video populates. So, I think it's like less than 60 seconds, but just like to send that out so I will get all those things sent over any questions I can help with though."
+    },
+    {
+      "timestamp": "8:23",
+      "speaker": "Kaylee",
+      "text": "No, that's it Kevin. Thank you so much for your help today. I appreciate it."
+    },
+    {
+      "timestamp": "8:26",
+      "speaker": "Kevin",
+      "text": "Yeah, absolutely. Well, we look forward to seeing you on Tuesday."
+    },
+    {
+      "timestamp": "8:29",
+      "speaker": "Kaylee",
+      "text": "Thank you so much. You have a good day."
+    },
+    {
+      "timestamp": "8:31",
+      "speaker": "Kevin",
+      "text": "You\u2019re welcome. You too. Bye bye."
+    },
+    {
+      "timestamp": "8:32",
+      "speaker": "Kaylee",
+      "text": "Bye bye."
+    }
+  ]
+}
