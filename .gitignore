@@ -20,3 +20,8 @@ kb.index
 kb_meta.npy
 data/
 logs/
+.git/
+*/.git/
+*/.gitmodules
+*.pyc
+__pycache__/
