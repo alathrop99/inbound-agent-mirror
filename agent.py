@@ -125,6 +125,13 @@ def _tts_worker():
             global _kokoro_pipeline
             if _kokoro_pipeline is None:
                 _kokoro_pipeline = KokoroPipeline(lang_code=KOKORO_LANG_CODE, device=KOKORO_DEVICE)
+                try:
+                    if _HAVE_TORCH:
+                        print("🧠 Kokoro is using:", _torch.cuda.get_device_name(0) if _torch.cuda.is_available() else "CPU")
+                    else:
+                        print("🧠 Kokoro is using:", "CPU")
+                except Exception:
+                    pass
         elif not use_sapi:
             tts_engine = pyttsx3.init()
             tts_engine.setProperty("rate", 185)
