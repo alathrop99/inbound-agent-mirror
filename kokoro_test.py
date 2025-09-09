@@ -1,9 +1,18 @@
-from kokoro import Synthesizer
+from kokoro import KPipeline
+import soundfile as sf
+import torch
 
-synth = Synthesizer(language="en")  # Default English model
-text = "Hello, thank you for calling Curve Dental. How can I help you today?"
+pipeline = KPipeline(lang_code="a", device="cuda" if torch.cuda.is_available() else "cpu")  # 'a' = American English
 
-# Generate speech to a WAV file
-synth.save_to_file(text, "kokoro_test.wav")
+text = "Hello! This is Aly from Curve Dental. How can I help you today?"
 
-print("✅ Voice generated and saved to kokoro_test.wav")
+# Kokoro returns a generator: (greedy_text, phonemes, audio_array)
+generator = pipeline(text, voice="af_heart")
+
+# Take the first output from the generator
+_, _, audio = next(generator)
+
+# Save to WAV
+sf.write("kokoro_test.wav", audio, 24000)
+
+print("✅ Saved to kokoro_test.wav")

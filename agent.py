@@ -14,12 +14,18 @@ try:
     _HAVE_WIN32COM = True
 except Exception:
     _HAVE_WIN32COM = False
+try:
+    import torch as _torch
+    _HAVE_TORCH = True
+except Exception:
+    _HAVE_TORCH = False
 import sounddevice as sd
 from faster_whisper import WhisperModel
 import ollama
 from collections import deque
 from rag import SimpleRAG
 from time import perf_counter
+import torch
 
 # --- Sentence streaming helper ---
 _SENT_END = ('.', '!', '?')
@@ -51,10 +57,13 @@ ASR_MODEL  = "base"                  # try "small" or "medium" later if you want
 SAMPLE_RATE = 16000                  # 16 kHz mono keeps things simple
 
 SYSTEM_PROMPT = (
-    "You are Alan, a concise, friendly inbound sales assistant. "
-    "Prefer verified facts from the [FACTS] section; if a point is not in facts, say you're unsure. "
-    "Incorporate facts naturally and do not include citations, bracket codes, or phrases like 'according to F1'. "
-    "Answer briefly (1-2 sentences, under 50 words)."
+    "You are Alley, a friendly, confident AI assistant for Curve Dental. "
+    "Speak like a knowledgeable rep — natural, direct, and concise. "
+    "Only respond to what was asked. Use plain, human language. "
+    "Prioritize clarity over detail. One or two sentences is ideal — three max. "
+    "Don't overload with extra info or stats unless it directly answers the question. "
+    "You'll be given trusted background info. Use that only. If unsure, say so briefly. "
+    "Never cite sources or say 'according to the knowledge base.'"
 )
 
 # ------- VAD tuning -------
@@ -71,24 +80,35 @@ HISTORY = deque(maxlen=8)  # (user, assistant) pairs
 RAG = SimpleRAG(facts_file="knowledge/facts.txt")  # loads facts + builds index
 
 # ---------------------------
-# TTS init with background worker (SAPI preferred, pyttsx3 fallback)
+# TTS init with background worker (Kokoro preferred; SAPI/pyttsx3 fallback)
 # ---------------------------
 _TTS_Q: Queue[str] = Queue()
 _tts_thread = None
 DEBUG_TTS = False
-TTS_ENGINE = os.environ.get("TTS_ENGINE", "SAPI").upper()  # SAPI | PYTTSX3
+TTS_ENGINE = os.environ.get("TTS_ENGINE", "KOKORO").upper()  # KOKORO | SAPI | PYTTSX3
+try:
+    from kokoro import KPipeline as KokoroPipeline
+    _HAVE_KOKORO = True
+except Exception:
+    _HAVE_KOKORO = False
+KOKORO_LANG_CODE = os.environ.get("KOKORO_LANG_CODE", "a")  # 'a' = American English
+KOKORO_VOICE = os.environ.get("KOKORO_VOICE", "af_heart")
+KOKORO_DEVICE = os.environ.get("KOKORO_DEVICE") or ("cuda" if (_HAVE_TORCH and _torch.cuda.is_available()) else "cpu")
+_kokoro_pipeline = None
 
 def _tts_worker():
     try:
-        if _HAVE_PYWIN32:
-            try:
-                pythoncom.CoInitialize()
-            except Exception:
-                pass
-        # Choose engine
+        use_kokoro = (TTS_ENGINE == "KOKORO") and _HAVE_KOKORO
         sapi_voice = None
         tts_engine = None
-        use_sapi = (TTS_ENGINE == "SAPI") and _HAVE_WIN32COM
+        if not use_kokoro:
+            if _HAVE_PYWIN32:
+                try:
+                    pythoncom.CoInitialize()
+                except Exception:
+                    pass
+        # Choose engine
+        use_sapi = (not use_kokoro) and (TTS_ENGINE == "SAPI") and _HAVE_WIN32COM
         if use_sapi:
             try:
                 sapi_voice = win32.Dispatch("SAPI.SpVoice")
@@ -101,7 +121,11 @@ def _tts_worker():
             except Exception as e:
                 print(f"[TTS] SAPI init failed: {e}; falling back to pyttsx3")
                 use_sapi = False
-        if not use_sapi:
+        if use_kokoro:
+            global _kokoro_pipeline
+            if _kokoro_pipeline is None:
+                _kokoro_pipeline = KokoroPipeline(lang_code=KOKORO_LANG_CODE, device=KOKORO_DEVICE)
+        elif not use_sapi:
             tts_engine = pyttsx3.init()
             tts_engine.setProperty("rate", 185)
             tts_engine.setProperty("volume", 1.0)
@@ -114,7 +138,18 @@ def _tts_worker():
             try:
                 if DEBUG_TTS:
                     print(f"[TTS] speak start: {text}")
-                if use_sapi and sapi_voice is not None:
+                if use_kokoro and _kokoro_pipeline is not None:
+                    import numpy as _np
+                    try:
+                        gen = _kokoro_pipeline(text, voice=KOKORO_VOICE)
+                        _gt, _ph, audio = next(gen)
+                        sr = getattr(_kokoro_pipeline, "sample_rate", 24000)
+                        x = _np.asarray(audio, dtype=_np.float32)
+                        sd.play(x, sr)
+                        sd.wait()
+                    except StopIteration:
+                        pass
+                elif use_sapi and sapi_voice is not None:
                     sapi_voice.Speak(text)
                 else:
                     tts_engine.say(text)
@@ -136,7 +171,7 @@ def _tts_worker():
     except Exception as ex:
         print(f"[TTS] Init error: {ex}")
     finally:
-        if _HAVE_PYWIN32:
+        if (TTS_ENGINE != "KOKORO") and _HAVE_PYWIN32:
             try:
                 pythoncom.CoUninitialize()
             except Exception:
@@ -267,11 +302,20 @@ def generate_llm_reply(user_text: str) -> str:
     if context_block:
         msgs.append({
             "role": "system",
-            "content": (
-                f"[FACTS]\n{context_block}\n"
-                "Incorporate these facts naturally. Do not include citations, bracket codes, or phrases like 'according to F1'."
-            ),
+            "content": 
+                context_block
         })
+    # Priming examples to improve conversational tone
+    msgs += [
+        {"role": "user", "content": "Do you integrate with Weave?"},
+        {"role": "assistant", "content": "Not at the moment, but that’s something we may support in the future. I’d be happy to check if there’s a workaround."},
+
+        {"role": "user", "content": "How long does training usually take?"},
+        {"role": "assistant", "content": "Most offices are up and running in a few days. Training is flexible — some finish in one or two sessions, others spread it out."},
+
+        {"role": "user", "content": "Why switch to Curve from Dentrix?"},
+        {"role": "assistant", "content": "Dentrix is server-based and can be clunky. Curve is cloud-native, includes more built-in tools, and doesn’t need IT help to run."},
+]
 
     for u, a in list(HISTORY):
         msgs.append({"role": "user", "content": u})
@@ -287,7 +331,13 @@ def generate_llm_reply(user_text: str) -> str:
         model=MODEL_NAME,
         messages=msgs,
         stream=True,
-        options={"num_ctx": 4096, "temperature": 0.2, "top_p": 0.9}
+        options={
+        "num_ctx": 4096,
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "repeat_penalty": 1.1,
+        "num_predict": 100  # ~2 sentences max
+    }
     ):
         if "message" in event and "content" in event["message"]:
             if first_token_time is None:
